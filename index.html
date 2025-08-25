@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacman</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        canvas {
+            border: 2px solid #444;
+            image-rendering: pixelated; /* crisp scaling for retro look */
+            width: 448px;
+            height: 576px;
+        }
+  </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="224" height="288"></canvas>
+    <script src="pacman.js"></script>
+</body>
+</html>
